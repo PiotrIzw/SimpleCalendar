@@ -30,7 +30,7 @@ public class CalendarTest {
             date = date.plusDays(1); //incrementing day
 
             if (date.getDayOfWeek().getValue() == 1) //if we moved to next week
-                System.out.println();               // move to next time
+                System.out.println();                //move to next line
         }
     }
 }
